@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(119, 206, 119);
+  font-family: 100% Arial, Halvatica, sans-serif;
+}
+
+header {
+  background-color: #06d3d3;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+nav li {
+  padding: 10px 20px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  color: rgb(119, 206, 119);
+}
+
+.one-button {
+  color: #06d3d3;
+  background-color: #4d4d4d;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.two-button {
+  color: white;
+  background-color: rgb(119, 206, 119);
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.header-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 40px;
+}
+.header-items .header-item {
+  width: 50%;
+}
+.header-items .header-item img {
+  width: 100%;
+  background-size: cover;
+}
+.header-items .header-item h1 {
+  color: white;
+  font-size: 50px;
+}
+.header-items .header-item p {
+  color: white;
+}
+
+/*# sourceMappingURL=stayle.css.map */
